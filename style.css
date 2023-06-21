@@ -4,3 +4,63 @@
     font-weight: bold;
     
 }
+
+
+
+
+
+
+@keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  .baner-text .far {
+    font-size: 1.7rem;
+  }
+  .baner-text h2 {
+    font-size: 2.5rem;
+    color: bg-primary;
+    font-weight: bold;
+  }
+  .baner-text p {
+    color: bg-primary;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  .btn {
+    margin-top: 2rem;
+    border-radius: 0.2rem !important;
+  }
+  .banner button {
+    border-radius: 1.4rem !important;
+    padding: 0.6rem 1.9rem !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .banner button:last-child {
+    color: white;
+    margin-left: -0.5rem;
+    font-size: 1.2rem;
+  }
+  .banner button:last-child:hover {
+    color: #5c7fb4;
+  }
+  .clients .img-fluid {
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+  .clients {
+    width: 100%;
+    background: #f8eeee;
+    height: auto;
+  }
+  .clients .img-fluid {
+    filter: grayscale(50%);
+  }
